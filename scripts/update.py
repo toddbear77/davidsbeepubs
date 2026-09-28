@@ -18,11 +18,13 @@ Uses only the Python standard library.
 """
 import datetime as dt
 import html
+import http.cookiejar
 import json
 import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -38,21 +40,63 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
 
 
-def request(url, body=None, tries=4):
+# The Bee's site (Laravel) rejects data requests with HTTP 419 unless they carry the
+# session cookie and anti-forgery token a browser gets when it first loads a page.
+# So we keep cookies like a browser and load /news once before asking for data.
+JAR = http.cookiejar.CookieJar()
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
+CSRF = {"meta": ""}
+
+
+def xsrf_cookie():
+    for c in JAR:
+        if c.name == "XSRF-TOKEN":
+            return urllib.parse.unquote(c.value)
+    return ""
+
+
+def start_session():
+    page = request(f"{BASE}/news", session=False)
+    m = re.search(r'<meta name="csrf-token" content="([^"]+)"', page)
+    CSRF["meta"] = m.group(1) if m else ""
+    if not (CSRF["meta"] or xsrf_cookie()):
+        raise RuntimeError("Loaded babylonbee.com/news but got no anti-forgery token - "
+                           "the site may have changed.")
+
+
+def request(url, body=None, tries=4, session=True):
     data = json.dumps(body).encode() if body is not None else None
-    headers = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9"}
+    headers = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9",
+               "Accept-Language": "en-US,en;q=0.9"}
     if data is not None:
-        headers["Content-Type"] = "application/json"
+        headers.update({
+            "Content-Type": "application/json",
+            "X-Requested-With": "XMLHttpRequest",
+            "Origin": BASE,
+            "Referer": f"{BASE}/news",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+        })
     last = None
     for attempt in range(tries):
+        if data is not None:
+            tok = xsrf_cookie()
+            if tok:
+                headers["X-XSRF-TOKEN"] = tok
+            if CSRF["meta"]:
+                headers["X-CSRF-TOKEN"] = CSRF["meta"]
         try:
             req = urllib.request.Request(url, data=data, headers=headers,
                                          method="POST" if data else "GET")
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with OPENER.open(req, timeout=45) as r:
                 return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            last = f"HTTP {e.code}"
+            if e.code == 419 and session:   # token expired: get a fresh one and retry
+                start_session()
         except (urllib.error.URLError, TimeoutError) as e:
             last = e
-            time.sleep(5 * (attempt + 1))
+        time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"Could not reach {url}: {last}")
 
 
@@ -96,7 +140,8 @@ def main():
     items = data["headlines"]
     known = {slug(h["url"]) for h in items}
 
-    now = dt.datetime.utcnow()
+    now = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)
+    start_session()
     oldest_entry = min(dt.datetime.strptime(h["date"], "%Y-%m-%d") for h in items)
     listing = fetch_listing(oldest_entry - dt.timedelta(days=WINDOW_DAYS + 2))
 
