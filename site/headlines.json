@@ -1,0 +1,360 @@
+{
+  "updated": "2026-09-23T19:00:00Z",
+  "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
+  "headlines": [
+    {
+      "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
+      "date": "2026-09-25",
+      "img": "https://media.babylonbee.com/articles/6ab6d5ad9554a6ab6d5ad9554b.jpg",
+      "url": "https://babylonbee.com/news/iranian-president-caught-using-cardboard-cutout-of-ayatollah-to-sneak-into-hov-lane",
+      "comments": 36
+    },
+    {
+      "headline": "RFK Jr. Teams Up With Starbucks To Introduce New Beef Tallow Spice Frappuccino",
+      "date": "2026-09-21",
+      "img": "https://media.babylonbee.com/articles/6ab19a5429e946ab19a5429e95.jpg",
+      "url": "https://babylonbee.com/news/rfk-jr-teams-up-with-starbucks-to-introduce-new-beef-tallow-spice-frappuccino",
+      "note": "Pitched via the Bee's Slack channel, so it carries no subscriber credit line",
+      "comments": 72,
+      "pct": 59,
+      "manual": true
+    },
+    {
+      "headline": "Report: Chili's Only Gets Bad Rap Because It Is Awful",
+      "date": "2026-09-19",
+      "img": "https://media.babylonbee.com/articles/6aadaaeaeb7376aadaaeaeb738.jpg",
+      "url": "https://babylonbee.com/news/report-chilis-only-gets-bad-rap-because-it-is-awful",
+      "comments": 85,
+      "pct": 77
+    },
+    {
+      "headline": "Local Dad Clearly Using His Kids As Excuse To Ride Go-Karts",
+      "date": "2026-09-12",
+      "img": "https://media.babylonbee.com/articles/6aa319d4c14c36aa319d4c14c4.jpg",
+      "url": "https://babylonbee.com/news/local-dad-clearly-using-his-kids-as-excuse-to-ride-go-karts",
+      "comments": 82,
+      "pct": 72
+    },
+    {
+      "headline": "Friend Who Completely Forgot About Fantasy Draft Projected To Win Handily",
+      "date": "2026-09-09",
+      "img": "https://media.babylonbee.com/articles/6aa18b47c5fc46aa18b47c5fc5.jpg",
+      "url": "https://babylonbee.com/news/friend-who-completely-forgot-about-fantasy-draft-projected-to-win-handily",
+      "comments": 38,
+      "pct": 2
+    },
+    {
+      "headline": "Powerful: Gloria Steinem Refuses To Allow Satan To Hold Door To Hell Open For Her",
+      "date": "2026-09-03",
+      "img": "https://media.babylonbee.com/articles/6a99ee241f2166a99ee241f217.jpg",
+      "url": "https://babylonbee.com/news/powerful-gloria-steinem-refuses-to-allow-satan-to-hold-door-to-hell-open-for-her",
+      "comments": 71,
+      "pct": 52
+    },
+    {
+      "headline": "Suspicions Of Ayatollah's Death Rise After His Name Appears On California Voter Rolls",
+      "date": "2026-09-01",
+      "img": "https://media.babylonbee.com/articles/6a9722ffeba626a9722ffeba63.jpg",
+      "url": "https://babylonbee.com/news/suspicions-of-ayatollahs-death-rise-after-his-name-appears-on-california-voter-rolls",
+      "comments": 53,
+      "pct": 19
+    },
+    {
+      "headline": "Unlucky: 6th Grader Flunks Geography After Trump Renames Everything In Middle Of Exam",
+      "date": "2026-09-01",
+      "img": "https://media.babylonbee.com/articles/6a970af0f039a6a970af0f039b.jpg",
+      "url": "https://babylonbee.com/news/unlucky-6th-grader-flunks-geography-after-trump-renames-everything-in-middle-of-exam",
+      "comments": 77,
+      "pct": 65
+    },
+    {
+      "headline": "CNN Banned In New Mexico After New State Law Criminalizes Fake News",
+      "date": "2026-08-31",
+      "img": "https://media.babylonbee.com/articles/6a95cce893a166a95cce893a17.jpg",
+      "url": "https://babylonbee.com/news/cnn-banned-in-new-mexico-after-new-state-law-criminalizes-fake-news",
+      "comments": 64,
+      "pct": 40
+    },
+    {
+      "headline": "Tucker Carlson Spends 380th Consecutive Episode Criticizing Country Nobody Is Allowed To Criticize",
+      "date": "2026-08-29",
+      "img": "https://media.babylonbee.com/articles/6a91d263a93f26a91d263a93f3.jpg",
+      "url": "https://babylonbee.com/news/tucker-carlson-spends-380th-consecutive-episode-criticizing-country-nobody-is-allowed-to-criticize",
+      "comments": 101,
+      "pct": 91
+    },
+    {
+      "headline": "Karoline Leavitt Prepared For Motherhood After Spending Last Two Years Answering Millions Of Stupid Questions",
+      "date": "2026-08-13",
+      "img": "https://media.babylonbee.com/articles/6a7e1a61adbf46a7e1a61adbf5.jpg",
+      "url": "https://babylonbee.com/news/karoline-leavitt-prepared-for-motherhood-after-spending-last-two-years-answering-millions-of-stupid-questions",
+      "comments": 54,
+      "pct": 19
+    },
+    {
+      "headline": "Mamdani Tries To Catch Netanyahu With Trap Labeled 'Free Bagels'",
+      "date": "2026-07-29",
+      "img": "https://media.babylonbee.com/articles/6a6a29306a3d76a6a29306a3d8.jpg",
+      "url": "https://babylonbee.com/news/mamdani-tries-to-catch-netanyahu-with-trap-labeled-free-bagels",
+      "comments": 77,
+      "pct": 66
+    },
+    {
+      "headline": "WNBA Warns Sophie Cunningham The League Will Fold If Only Women Are Allowed To Play",
+      "date": "2026-07-23",
+      "img": "https://media.babylonbee.com/articles/6a6261a828d536a6261a828d54.jpg",
+      "url": "https://babylonbee.com/news/wnba-warns-sophie-cunningham-the-league-will-fold-if-only-women-are-allowed-to-play",
+      "comments": 72,
+      "pct": 57
+    },
+    {
+      "headline": "Chicago Mayor Credits Huge Drop In Crime To Turning Crime Stats Chart Upside Down",
+      "date": "2026-07-23",
+      "img": "https://media.babylonbee.com/articles/6a6245415623f6a62454156240.jpg",
+      "url": "https://babylonbee.com/news/chicago-mayor-credits-huge-drop-in-crime-to-turning-crime-stats-chart-upside-down",
+      "comments": 59,
+      "pct": 32
+    },
+    {
+      "headline": "Study Shows Mysterious Link Between Trying To Run Over ICE Agent And Bullets Striking Windshield",
+      "date": "2026-07-15",
+      "img": "https://media.babylonbee.com/articles/6a57a5e89993d6a57a5e89993e.jpg",
+      "url": "https://babylonbee.com/news/study-shows-mysterious-link-between-trying-to-run-over-ice-agent-and-bullets-striking-windshield",
+      "comments": 59,
+      "pct": 36
+    },
+    {
+      "headline": "Police Instantly Disperse 'Teen Takeover' By Firing Job Applications Into Crowd",
+      "date": "2026-07-13",
+      "img": "https://media.babylonbee.com/articles/6a55513d314d16a55513d314d2.jpg",
+      "url": "https://babylonbee.com/news/police-instantly-disperse-teen-takeover-by-firing-job-applications-into-crowd",
+      "comments": 55,
+      "pct": 26
+    },
+    {
+      "headline": "Nazi Really Regretting Getting Graham Platner Tattoo",
+      "date": "2026-07-09",
+      "img": "https://media.babylonbee.com/articles/6a4fbd3568c7d6a4fbd3568c7e.jpg",
+      "url": "https://babylonbee.com/news/nazi-really-regretting-getting-graham-platner-tattoo",
+      "comments": 63,
+      "pct": 46
+    },
+    {
+      "headline": "Thousands Dead After New York Man Lowers Apartment Temp To 77 Degrees",
+      "date": "2026-07-03",
+      "img": "https://media.babylonbee.com/articles/6a4804848f6ea6a4804848f6eb.jpg",
+      "url": "https://babylonbee.com/news/thousands-dead-after-new-york-man-lowers-apartment-temp-to-77-degrees",
+      "comments": 66,
+      "pct": 54
+    },
+    {
+      "headline": "Terrorist Torn Between Going On Violent Jihad Or Getting Elected As Democratic Senator",
+      "date": "2026-07-01",
+      "img": "https://media.babylonbee.com/articles/6a45529ca75136a45529ca7514.jpg",
+      "url": "https://babylonbee.com/news/terrorist-torn-between-going-on-violent-jihad-or-getting-elected-as-democratic-senator",
+      "comments": 55,
+      "pct": 29
+    },
+    {
+      "headline": "In Most Exciting Moment In History Of WNBA, Woman Points At Other Woman",
+      "date": "2026-06-30",
+      "img": "https://media.babylonbee.com/articles/6a43f178775286a43f17877529.jpg",
+      "url": "https://babylonbee.com/news/in-most-exciting-moment-in-history-of-wnba-woman-points-at-other-woman",
+      "comments": 93,
+      "pct": 91
+    },
+    {
+      "headline": "Nervous Speaker At Pride Event Relaxes By Imagining The Crowd Fully Clothed",
+      "date": "2026-06-28",
+      "img": "https://media.babylonbee.com/articles/6a42a383c53f36a42a383c53f4.jpg",
+      "url": "https://babylonbee.com/news/nervous-speaker-at-pride-event-relaxes-by-imagining-the-crowd-fully-clothed",
+      "comments": 58,
+      "pct": 33
+    },
+    {
+      "headline": "Cubans Living In NYC Begin Boarding Rafts To Escape Communism Again",
+      "date": "2026-06-26",
+      "img": "https://media.babylonbee.com/articles/6a3ee677257026a3ee67725703.jpg",
+      "url": "https://babylonbee.com/news/cubans-living-in-nyc-begin-boarding-rafts-to-escape-communism-again",
+      "flag": "Reposted by President Trump on Truth Social",
+      "comments": 76,
+      "pct": 75
+    },
+    {
+      "headline": "ISIS Claims Responsibility For Reflecting Pool Algae",
+      "date": "2026-06-20",
+      "img": "https://media.babylonbee.com/articles/6a36ea9716f3e6a36ea9716f3f.jpg",
+      "url": "https://babylonbee.com/news/isis-takes-responsibility-for-reflecting-pool-algae",
+      "comments": 71,
+      "pct": 67
+    },
+    {
+      "headline": "Massie Blames Defeat On Jews Of Rural Kentucky",
+      "date": "2026-05-20",
+      "img": "https://media.babylonbee.com/articles/6a0dd369c81a26a0dd369c81a3.jpg",
+      "url": "https://babylonbee.com/news/massie-blames-defeat-on-jews-of-rural-kentucky",
+      "comments": 107,
+      "pct": 99
+    },
+    {
+      "headline": "Kids Excited To Learn Of Cool Alternative To Vaping Called 'Smoking Cigarettes'",
+      "date": "2026-05-16",
+      "img": "https://media.babylonbee.com/articles/6a08b182ba1ac6a08b182ba1ad.jpg",
+      "url": "https://babylonbee.com/news/kids-excited-to-learn-of-cool-alternative-to-vaping-called-smoking-cigarettes",
+      "comments": 61,
+      "pct": 55
+    },
+    {
+      "headline": "Nancy Pelosi Says Stop Asking If Aliens Are Real Or She Will Order The Mothership To Fire Its Superlaser At Earth",
+      "date": "2026-05-09",
+      "img": "https://media.babylonbee.com/articles/69ff8bd16e1b269ff8bd16e1b3.jpg",
+      "url": "https://babylonbee.com/news/nancy-pelosi-says-stop-asking-if-aliens-are-real-or-she-will-order-the-mothership-to-fire-its-superlaser-at-earth",
+      "comments": 51,
+      "pct": 35
+    },
+    {
+      "headline": "Trump Enters Ceasefire Talks With Democrats",
+      "date": "2026-04-27",
+      "img": "https://media.babylonbee.com/articles/69ef846c0de7d69ef846c0de7e.jpg",
+      "url": "https://babylonbee.com/news/trump-enters-ceasefire-talks-with-democrats",
+      "comments": 74,
+      "pct": 80
+    },
+    {
+      "headline": "Middle East Celebrates Ceasefire With Massive Fireworks Display",
+      "date": "2026-04-08",
+      "img": "https://media.babylonbee.com/articles/69d6aa80aea2369d6aa80aea24.jpg",
+      "url": "https://babylonbee.com/news/middle-east-celebrates-ceasefire-with-massive-fireworks-show",
+      "comments": 90,
+      "pct": 92
+    },
+    {
+      "headline": "Trump Releases Line Of Sympathy Cards",
+      "date": "2026-03-23",
+      "img": "https://media.babylonbee.com/articles/69c17d603dc3169c17d603dc32.jpg",
+      "url": "https://babylonbee.com/news/trump-releases-line-of-sympathy-cards",
+      "comments": 76,
+      "pct": 71
+    },
+    {
+      "headline": "Democrats Fear Higher Gas Prices Could Affect Molotov Cocktail Production",
+      "date": "2026-03-19",
+      "img": "https://media.babylonbee.com/articles/69bc2952058bb69bc2952058bc.jpg",
+      "url": "https://babylonbee.com/news/democrats-fear-higher-gas-prices-could-affect-molotov-cocktail-production",
+      "comments": 75,
+      "pct": 66
+    },
+    {
+      "headline": "American Women's Bobsled Team Comes In Last After Stopping To Ask For Directions",
+      "date": "2026-02-20",
+      "img": "https://media.babylonbee.com/articles/6998d30fdb2ab6998d30fdb2ac.jpg",
+      "url": "https://babylonbee.com/news/american-womens-bobsled-team-comes-in-last-after-stopping-to-ask-for-directions",
+      "comments": 74,
+      "pct": 57
+    },
+    {
+      "headline": "Bible Authors Admit They Were Paid $7K For Every Reference To Israel",
+      "date": "2026-02-12",
+      "img": "https://media.babylonbee.com/articles/698e2e995de3e698e2e995de3f.jpg",
+      "url": "https://babylonbee.com/news/bible-authors-admit-they-were-paid-7k-for-every-reference-to-israel",
+      "comments": 52,
+      "pct": 19
+    },
+    {
+      "headline": "Frustrated Don Lemon Wonders What A Guy Has To Do To Get Sent To Men's Prison",
+      "date": "2026-01-24",
+      "img": "https://media.babylonbee.com/articles/697513d87c809697513d87c80a.jpg",
+      "url": "https://babylonbee.com/news/frustrated-don-lemon-wonders-what-a-guy-has-to-do-to-get-sent-to-mens-prison",
+      "comments": 83,
+      "pct": 73
+    },
+    {
+      "headline": "Trump Disguises Himself As Muslim Migrant So Europe Will Let Him Invade Greenland",
+      "date": "2026-01-20",
+      "img": "https://media.babylonbee.com/articles/696fc95f97f7d696fc95f97f7e.jpg",
+      "url": "https://babylonbee.com/news/trump-disguises-himself-as-muslim-migrant-so-europe-will-let-him-invade-greenland",
+      "comments": 77,
+      "pct": 63
+    },
+    {
+      "headline": "Trump Worried Reports Of Venezuelan Oil Tanker Seizure Have Ruined The Surprise Of Melania's Christmas Gift",
+      "date": "2025-12-12",
+      "img": "https://media.babylonbee.com/articles/693c5c15e014e693c5c15e014f.jpg",
+      "url": "https://babylonbee.com/news/trump-worried-reports-of-venezuelan-oil-tanker-seizure-have-ruined-the-surprise-of-melanias-christmas-gift",
+      "comments": 50,
+      "pct": 15
+    },
+    {
+      "headline": "Congress Passes Resolution To Release Santa's Naughty/Nice List",
+      "date": "2025-11-21",
+      "img": "https://media.babylonbee.com/articles/6920a652259c76920a652259c8.jpg",
+      "url": "https://babylonbee.com/news/congress-passes-resolution-to-release-santas-naughtynice-list",
+      "comments": 52,
+      "pct": 19
+    },
+    {
+      "headline": "Cruel: IDF Forces Give Greta Thunberg Dry Sub Sandwich With No Mayo",
+      "date": "2025-10-03",
+      "img": "https://media.babylonbee.com/articles/68e02fe4bf36768e02fe4bf368.jpg",
+      "url": "https://babylonbee.com/news/cruel-idf-forces-give-greta-thunberg-dry-sub-sandwich-with-no-mayo",
+      "comments": 87,
+      "pct": 72
+    },
+    {
+      "headline": "Americans Return To Not Watching Jimmy Kimmel By Choice",
+      "date": "2025-09-25",
+      "img": "https://media.babylonbee.com/articles/68d59728eac2868d59728eac29.jpg",
+      "url": "https://babylonbee.com/news/americans-return-to-not-watching-jimmy-kimmel-by-choice",
+      "comments": 66,
+      "pct": 40
+    },
+    {
+      "headline": "In Solidarity With Colbert, Jimmy Kimmel Vows Not To Tell Any Funny Jokes Until 'Late Show' Is Reinstated",
+      "date": "2025-07-22",
+      "img": "https://media.babylonbee.com/articles/687fb9938bc5c687fb9938bc5d.jpg",
+      "url": "https://babylonbee.com/news/jimmy-kimmel-promises-to-remain-unfunny-in-solidarity-with-stephen-colbert",
+      "comments": 98,
+      "pct": 76
+    },
+    {
+      "headline": "Mexican Restaurant's Authenticity Questioned After Experiencing Zero ICE Raids",
+      "date": "2025-06-28",
+      "img": "https://media.babylonbee.com/articles/685ed54326ce1685ed54326ce2.jpg",
+      "url": "https://babylonbee.com/news/taco-bell-authenticity-questioned-after-zero-ice-raids",
+      "comments": 86,
+      "pct": 55
+    },
+    {
+      "headline": "American Students Unsure Who To Cheat Off After Trump Revokes Chinese Student Visas",
+      "date": "2025-05-29",
+      "img": "https://media.babylonbee.com/articles/683898e60cdea683898e60cdeb.jpg",
+      "url": "https://babylonbee.com/news/american-students-unsure-who-to-cheat-off-after-trump-revokes-chinese-student-visas",
+      "comments": 72,
+      "pct": 35
+    },
+    {
+      "headline": "Checkmate: Trump Hits Canada With Tariff Of Double Infinity Plus One",
+      "date": "2025-03-12",
+      "img": "https://media.babylonbee.com/articles/67d1e6c361d3467d1e6c361d35.jpg",
+      "url": "https://babylonbee.com/news/checkmate-trump-hits-canada-with-tariff-of-double-infinity-plus-one",
+      "comments": 75,
+      "pct": 46
+    },
+    {
+      "headline": "Trump Fired After Forgetting To Reply To Elon's Email",
+      "date": "2025-02-24",
+      "img": "https://media.babylonbee.com/articles/67bccb607054967bccb607054a.jpg",
+      "url": "https://babylonbee.com/news/trump-fired-after-forgetting-to-reply-to-elons-email",
+      "comments": 103,
+      "pct": 80
+    },
+    {
+      "headline": "Elon Waiting For Black Friday Half-Off Sale So He Can Buy MSNBC For Just $30",
+      "date": "2024-11-25",
+      "img": "https://media.babylonbee.com/articles/6744e1ba145806744e1ba14581.jpg",
+      "url": "https://babylonbee.com/news/elon-waiting-for-black-friday-half-off-sale-so-he-can-buy-msnbc-for-just-30",
+      "comments": 74,
+      "pct": 33
+    }
+  ]
+}

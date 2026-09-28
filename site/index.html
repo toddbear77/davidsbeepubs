@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Raphael - Babylon Bee Contributor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;}
+    body{margin:0;background:linear-gradient(180deg,#f6eddc 0%,#fdf8f0 28%,#f8f0e2 100%);font-family:'Crimson Pro',Georgia,serif;color:#1a1208;}
+    .masthead{background:#1a1208;color:#fdf8f0;text-align:center;padding:3rem 1.25rem 2.5rem;border-bottom:4px solid #c8a84b;}
+    .masthead::before{content:'\1F5DE\FE0F';font-size:3.5rem;display:block;margin-bottom:.5rem;}
+    .masthead-kicker{font-size:.85rem;letter-spacing:.22em;text-transform:uppercase;color:#c8a84b;margin:0 0 .75rem;}
+    h1{margin:0;font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.2rem,5vw,3.8rem);line-height:1.1;}
+    .masthead-handle{margin:.4rem 0 0;font-family:'Crimson Pro',Georgia,serif;font-size:1.02rem;letter-spacing:.06em;color:#c8a84b;}
+    .masthead-sub{margin:.55rem 0 0;color:#d4b96a;font-style:italic;font-size:1.08rem;}
+    .dedication{background:#c8a84b;color:#1a1208;text-align:center;padding:.9rem 1rem;font-family:'Playfair Display',Georgia,serif;font-style:italic;}
+    .stats-bar{display:flex;justify-content:center;align-items:center;gap:2rem;flex-wrap:wrap;background:#f5ede0;border-bottom:1px solid #ddd0b8;padding:1.5rem 1rem;}
+    .stat{text-align:center;}
+    .stat-num{display:block;font-family:'Playfair Display',Georgia,serif;font-size:2rem;color:#8b4513;}
+    .stat-label{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#6b5a3e;}
+    .divider{width:1px;height:46px;background:#ddd0b8;}
+    .wrap{max-width:1200px;margin:0 auto;}
+    .section-rule{display:flex;align-items:center;gap:1rem;margin:2rem 1.25rem 1rem;}
+    .section-rule-line{flex:1;height:1px;background:#c8a84b;}
+    .section-rule-label{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#8b6914;white-space:nowrap;}
+    .sort-bar{display:flex;gap:.5rem;justify-content:center;align-items:center;flex-wrap:wrap;margin:0 1.25rem .35rem;}
+    .sort-label{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#8b7355;margin-right:.15rem;}
+    .sort-btn{font-family:inherit;font-size:.84rem;cursor:pointer;border:1px solid #d8c3a1;background:#fffdf8;color:#6b5a3e;padding:.3rem .95rem;border-radius:999px;transition:all .15s;}
+    .sort-btn:hover{border-color:#c8a84b;}
+    .sort-btn.active{background:#1a1208;color:#f3dd97;border-color:#1a1208;}
+    .archive-note{text-align:center;font-size:.78rem;font-style:italic;color:#9a8765;margin:0 1.25rem 1.25rem;}
+    .headlines-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:0;margin:0 1.25rem 2rem;}
+    .headline-card{border:1px solid #d8c3a1;background:linear-gradient(180deg,#fffdf8 0%,#f9f2e5 100%);text-decoration:none;color:inherit;display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 8px 22px rgba(58,39,11,.06);border-radius:16px;}
+    .card-img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block;background:#e9ddc6;border-bottom:1px solid #e3d3b3;}
+    .headline-card.is-flagged{border-color:#c8a84b;box-shadow:0 0 0 2px #c8a84b,0 12px 28px rgba(58,39,11,.14);}
+    .card-flag{display:flex;align-items:center;justify-content:center;gap:.45rem;background:linear-gradient(90deg,#1a1208,#3a2a12);color:#f3dd97;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;line-height:1.35;text-align:center;padding:.5rem .65rem;}
+    .card-flag::before{content:'\2605';color:#f3dd97;font-size:.85rem;}
+    .card-body{display:flex;flex-direction:column;gap:.6rem;padding:1.25rem 1.6rem 1.5rem;flex:1;}
+    .card-body::before{content:'';width:42px;height:4px;background:linear-gradient(90deg,#c8a84b,#b7862a);display:block;margin-bottom:.15rem;border-radius:99px;}
+    .card-num{position:absolute;top:.75rem;right:.8rem;font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;color:#f3dd97;background:rgba(26,18,8,.78);padding:.05rem .55rem;border-radius:9px;line-height:1.5;backdrop-filter:blur(2px);}
+    .card-headline{font-family:'Playfair Display',Georgia,serif;font-size:1.08rem;line-height:1.42;}
+    .card-meta{display:flex;align-items:center;justify-content:space-between;gap:.5rem;}
+    .card-date{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#8b7355;}
+    .card-badge{font-size:.76rem;letter-spacing:.04em;color:#8b6914;background:#f1e5ca;border:1px solid #e1cf9f;padding:.1rem .55rem;border-radius:999px;white-space:nowrap;}
+    .card-badge.is-loading{opacity:.5;}
+    .card-badge.is-failed{opacity:.5;background:#efe7d6;border-color:#e4d8bf;}
+    .card-badge.is-empty{display:none;}
+    .card-disc{font-size:.8rem;color:#6b5a3e;}
+    .card-disc strong{color:#8b4513;font-weight:600;}
+    .card-note{font-size:.78rem;font-style:italic;color:#9a8765;}
+    .card-link{margin-top:auto;color:#9d6f16;font-style:italic;font-size:.86rem;}
+    .footer{background:#1a1208;color:#d4b96a;text-align:center;padding:3rem 1.25rem 2.8rem;border-top:4px solid #c8a84b;}
+    .footer-quote{margin:0 auto 1rem;max-width:34rem;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:1.2rem;color:#fdf8f0;}
+    .footer-attr{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:#8b7355;}
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <p class="masthead-kicker">A tribute to the wit of</p>
+    <h1>David Raphael</h1>
+    <p class="masthead-handle">@TwoDegreesOff</p>
+    <p class="masthead-sub">Babylon Bee Subscriber Contributor &amp; Headline Craftsman</p>
+  </header>
+  <div class="dedication">Babylon Bee subscriber David Raphael contributed to this report.</div>
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-num" id="stat-count">0</span><span class="stat-label">Headlines Published</span></div>
+    <div class="divider"></div>
+    <div class="stat"><span class="stat-num" id="stat-years">&#8212;</span><span class="stat-label">Years Contributing</span></div>
+    <div class="divider"></div>
+    <div class="stat"><span class="stat-num">&#8734;</span><span class="stat-label">Laughs Generated</span></div>
+  </div>
+  <div class="wrap">
+    <div class="section-rule"><div class="section-rule-line"></div><span class="section-rule-label">The Complete Works</span><div class="section-rule-line"></div></div>
+    <div class="sort-bar" role="group" aria-label="Sort headlines">
+      <span class="sort-label">Sort</span>
+      <button class="sort-btn active" data-sort="date" type="button">Newest</button>
+      <button class="sort-btn" data-sort="discussed" type="button">Most Discussed</button>
+    </div>
+    <p class="archive-note" id="sort-note">&#8220;Most Discussed&#8221; ranks each piece by its comment count on babylonbee.com, compared with every other Bee article published within 30 days of it. <span id="sort-updated"></span></p>
+    <p class="archive-note" id="archive-note">Badge numbers are pulled live from the Internet Archive when you&#8217;re online &#8212; a rough attention proxy, not official shares.</p>
+    <div class="headlines-grid" id="headlines-grid"></div>
+  </div>
+  <footer class="footer">
+    <p class="footer-quote">Babylon Bee subscriber David Raphael contributed to this report.</p>
+    <p class="footer-attr"><span id="footer-count">0</span> times and counting &#8212; Happy Birthday, David</p>
+  </footer>
+
+  <script>
+  /* =====================================================================
+     DAVID'S HEADLINES live in headlines.json (same folder as this page).
+     ---------------------------------------------------------------------
+     A GitHub Action (scripts/update.py) checks babylonbee.com every morning,
+     adds any new article credited to David, and refreshes comment counts.
+
+     To add one by hand (e.g. a piece pitched via Slack with no credit
+     line), add an entry to headlines.json with "manual": true, e.g.
+
+       { "headline": "Exact headline", "date": "2026-09-21",
+         "img": "https://media.babylonbee.com/articles/XXXX.jpg",
+         "url": "https://babylonbee.com/news/the-slug",
+         "note": "Pitched via the Bee's Slack channel", "manual": true }
+
+     Optional fields: "flag" (gold banner), "note" (small italic line).
+     ===================================================================== */
+  let headlines = [];
+  let dataUpdated = null;
+
+  /* ---- Rendering engine (no need to edit below this line) ---- */
+  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  let sortMode = "date";
+
+  function formatDate(iso){
+    const [y,m,d] = iso.split("-").map(Number);
+    return d + "-" + MONTHS[m-1] + "-" + String(y).slice(2);
+  }
+  function escapeHtml(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+  function badgeText(c){
+    if (c === false) return "\u2014";                            // lookup failed
+    if (c === null || c === undefined) return "\u2026";          // loading
+    return "\uD83C\uDFDB " + c + (c === 1 ? " snapshot" : " snapshots");
+  }
+
+  function discLine(item){
+    if (typeof item.comments !== "number") return "";
+    const tag = (item.pct >= 50) ? ' &#183; <strong>Top ' + Math.max(1, 100 - item.pct) + '%</strong> that month' : '';
+    return '<div class="card-disc">\uD83D\uDCAC ' + item.comments + ' comments' + tag + '</div>';
+  }
+
+  function sortList(mode){
+    const byDate = (a,b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : (b.seq - a.seq));
+    if (mode === "discussed"){
+      return [...headlines].sort((a,b) => ((b.pct ?? -1) - (a.pct ?? -1)) || ((b.comments ?? 0) - (a.comments ?? 0)) || byDate(a,b));
+    }
+    if (mode === "archive"){
+      return [...headlines].sort((a,b) => {
+        const av = (typeof a.archive === "number") ? a.archive : -1;
+        const bv = (typeof b.archive === "number") ? b.archive : -1;
+        return bv - av || byDate(a,b);
+      });
+    }
+    return [...headlines].sort(byDate);
+  }
+
+  function render(){
+    const sorted = sortList(sortMode);
+    const grid = document.getElementById("headlines-grid");
+    grid.innerHTML = sorted.map((item,i) => {
+      const num = String(item.seq).padStart(2,"0");
+      const h = escapeHtml(item.headline);
+      const img = item.img
+        ? '<img class="card-img" src="'+escapeHtml(item.img)+'" alt="'+h+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">'
+        : "";
+      const known = (typeof item.archive === "number");
+      const badgeCls = "card-badge" + (known ? "" : (item.archive === false ? " is-failed" : " is-loading"));
+      const flagCls = item.flag ? " is-flagged" : "";
+      const flagEl = item.flag ? '<div class="card-flag">'+escapeHtml(item.flag)+'</div>' : "";
+      return '<a class="headline-card'+flagCls+'" href="'+escapeHtml(item.url)+'" target="_blank" rel="noopener noreferrer">'
+        + '<span class="card-num">'+num+'</span>'
+        + img
+        + flagEl
+        + '<div class="card-body">'
+        +   '<div class="card-headline">'+h+'</div>'
+        +   '<div class="card-meta">'
+        +     '<span class="card-date">'+escapeHtml(formatDate(item.date))+'</span>'
+        +     '<span class="'+badgeCls+'" data-archive-url="'+escapeHtml(item.url)+'" '
+        +           'title="Internet Archive snapshots of this article - a rough popularity proxy">'
+        +       badgeText(item.archive)
+        +     '</span>'
+        +   '</div>'
+        +   discLine(item)
+        +   (item.note ? '<div class="card-note">'+escapeHtml(item.note)+'</div>' : '')
+        +   '<span class="card-link">Read on Babylon Bee</span>'
+        + '</div>'
+        + '</a>';
+    }).join("");
+
+    const years = headlines.map(h => Number(h.date.slice(0,4)));
+    const minY = Math.min(...years), maxY = Math.max(...years);
+    document.getElementById("stat-years").textContent = (minY === maxY) ? String(minY) : (minY + "\u2013" + String(maxY).slice(2));
+    document.getElementById("stat-count").textContent = headlines.length;
+    document.getElementById("footer-count").textContent = headlines.length;
+  }
+
+  /* ---- Internet Archive snapshot counts (pulled live, best-effort) ---- */
+  async function fetchArchiveCount(url){
+    const api = "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp&limit=20000&url=" + encodeURIComponent(url);
+    try {
+      const res = await fetch(api, { cache: "no-store" });
+      if (!res.ok) return false;
+      const data = await res.json();
+      if (!Array.isArray(data) || data.length === 0) return 0;     // no captures
+      return Math.max(0, data.length - 1);                          // minus header row
+    } catch (e) {
+      return false;                                                 // blocked / offline
+    }
+  }
+
+  function updateBadge(url, value){
+    const el = document.querySelector('[data-archive-url="' + (window.CSS && CSS.escape ? CSS.escape(url) : url) + '"]');
+    if (!el) return;
+    el.classList.remove("is-loading");
+    el.classList.remove("is-failed");
+    if (value === false){ el.classList.add("is-failed"); el.textContent = badgeText(false); el.title = "Couldn't reach the Internet Archive from here"; }
+    else { el.textContent = badgeText(value); }
+  }
+
+  async function loadArchiveCounts(){
+    const queue = headlines.slice();
+    async function worker(){
+      while (queue.length){
+        const item = queue.shift();
+        const v = await fetchArchiveCount(item.url);
+        item.archive = v;            // number, 0, or false (failed)
+        updateBadge(item.url, v);
+      }
+    }
+    // a few workers in parallel; gentle on the Archive
+    await Promise.all([worker(), worker(), worker(), worker()]);
+    const anyNumeric = headlines.some(h => typeof h.archive === "number");
+    const note = document.getElementById("archive-note");
+    if (!anyNumeric && note){
+      note.textContent = "Snapshot counts couldn\u2019t load \u2014 browsers block this lookup when the page is opened straight from a file. Serve it through a web host (or a local server) and the numbers appear automatically.";
+    }
+  }
+
+  // assign a permanent chronological number to each headline:
+  // oldest contribution = 1, newest = N. Stays with the article in any sort.
+  function assignSeq(){
+    const asc = [...headlines].sort((a,b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+    asc.forEach((h,i) => { h.seq = i + 1; });
+  }
+
+  document.querySelectorAll(".sort-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      sortMode = btn.dataset.sort;
+      document.querySelectorAll(".sort-btn").forEach(b => b.classList.toggle("active", b === btn));
+      render();
+      headlines.forEach(h => { if (h.archive !== undefined && h.archive !== null) updateBadge(h.url, h.archive); });
+    });
+  });
+
+  function showUpdated(){
+    if (!dataUpdated) return;
+    const d = new Date(dataUpdated);
+    if (isNaN(d)) return;
+    const txt = d.getDate() + " " + MONTHS[d.getMonth()] + " " + d.getFullYear();
+    const el = document.getElementById("sort-updated");
+    if (el) el.textContent = "Counts updated " + txt + ".";
+  }
+
+  async function init(){
+    try {
+      const res = await fetch("headlines.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+      headlines = data.headlines || [];
+      dataUpdated = data.updated || null;
+    } catch (e) {
+      document.getElementById("headlines-grid").innerHTML =
+        '<p class="archive-note">Couldn\u2019t load the headline list (' + escapeHtml(e.message) +
+        '). If you opened this file directly from your computer, view it on the website instead.</p>';
+      return;
+    }
+    assignSeq();
+    render();
+    showUpdated();
+    loadArchiveCounts();
+  }
+  init();
+  </script>
+</body>
+</html>
