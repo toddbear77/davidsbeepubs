@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T19:00:00Z",
+  "updated": "2026-09-29T10:33:02Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -7,7 +7,8 @@
       "date": "2026-09-25",
       "img": "https://media.babylonbee.com/articles/6ab6d5ad9554a6ab6d5ad9554b.jpg",
       "url": "https://babylonbee.com/news/iranian-president-caught-using-cardboard-cutout-of-ayatollah-to-sneak-into-hov-lane",
-      "comments": 36
+      "comments": 37,
+      "pct": 2
     },
     {
       "headline": "RFK Jr. Teams Up With Starbucks To Introduce New Beef Tallow Spice Frappuccino",
@@ -15,8 +16,8 @@
       "img": "https://media.babylonbee.com/articles/6ab19a5429e946ab19a5429e95.jpg",
       "url": "https://babylonbee.com/news/rfk-jr-teams-up-with-starbucks-to-introduce-new-beef-tallow-spice-frappuccino",
       "note": "Pitched via the Bee's Slack channel, so it carries no subscriber credit line",
-      "comments": 72,
-      "pct": 59,
+      "comments": 73,
+      "pct": 60,
       "manual": true
     },
     {
@@ -33,7 +34,7 @@
       "img": "https://media.babylonbee.com/articles/6aa319d4c14c36aa319d4c14c4.jpg",
       "url": "https://babylonbee.com/news/local-dad-clearly-using-his-kids-as-excuse-to-ride-go-karts",
       "comments": 82,
-      "pct": 72
+      "pct": 71
     },
     {
       "headline": "Friend Who Completely Forgot About Fantasy Draft Projected To Win Handily",
@@ -41,7 +42,7 @@
       "img": "https://media.babylonbee.com/articles/6aa18b47c5fc46aa18b47c5fc5.jpg",
       "url": "https://babylonbee.com/news/friend-who-completely-forgot-about-fantasy-draft-projected-to-win-handily",
       "comments": 38,
-      "pct": 2
+      "pct": 1
     },
     {
       "headline": "Powerful: Gloria Steinem Refuses To Allow Satan To Hold Door To Hell Open For Her",
@@ -49,7 +50,7 @@
       "img": "https://media.babylonbee.com/articles/6a99ee241f2166a99ee241f217.jpg",
       "url": "https://babylonbee.com/news/powerful-gloria-steinem-refuses-to-allow-satan-to-hold-door-to-hell-open-for-her",
       "comments": 71,
-      "pct": 52
+      "pct": 53
     },
     {
       "headline": "Suspicions Of Ayatollah's Death Rise After His Name Appears On California Voter Rolls",
@@ -57,7 +58,7 @@
       "img": "https://media.babylonbee.com/articles/6a9722ffeba626a9722ffeba63.jpg",
       "url": "https://babylonbee.com/news/suspicions-of-ayatollahs-death-rise-after-his-name-appears-on-california-voter-rolls",
       "comments": 53,
-      "pct": 19
+      "pct": 18
     },
     {
       "headline": "Unlucky: 6th Grader Flunks Geography After Trump Renames Everything In Middle Of Exam",
@@ -73,7 +74,7 @@
       "img": "https://media.babylonbee.com/articles/6a95cce893a166a95cce893a17.jpg",
       "url": "https://babylonbee.com/news/cnn-banned-in-new-mexico-after-new-state-law-criminalizes-fake-news",
       "comments": 64,
-      "pct": 40
+      "pct": 39
     },
     {
       "headline": "Tucker Carlson Spends 380th Consecutive Episode Criticizing Country Nobody Is Allowed To Criticize",
@@ -81,7 +82,7 @@
       "img": "https://media.babylonbee.com/articles/6a91d263a93f26a91d263a93f3.jpg",
       "url": "https://babylonbee.com/news/tucker-carlson-spends-380th-consecutive-episode-criticizing-country-nobody-is-allowed-to-criticize",
       "comments": 101,
-      "pct": 91
+      "pct": 90
     },
     {
       "headline": "Karoline Leavitt Prepared For Motherhood After Spending Last Two Years Answering Millions Of Stupid Questions",
@@ -290,7 +291,7 @@
       "img": "https://media.babylonbee.com/articles/6920a652259c76920a652259c8.jpg",
       "url": "https://babylonbee.com/news/congress-passes-resolution-to-release-santas-naughtynice-list",
       "comments": 52,
-      "pct": 19
+      "pct": 20
     },
     {
       "headline": "Cruel: IDF Forces Give Greta Thunberg Dry Sub Sandwich With No Mayo",
