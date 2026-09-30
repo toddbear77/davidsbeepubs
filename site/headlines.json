@@ -1,13 +1,29 @@
 {
-  "updated": "2026-09-29T10:33:02Z",
+  "updated": "2026-09-30T10:32:59Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
+    {
+      "headline": "Jesus Turns Wine Back to Water After Wedding Guests Start Doing The Electric Slide",
+      "date": "2026-09-29",
+      "img": "https://media.babylonbee.com/articles/6abc1f3fb43fd6abc1f3fb43fe.jpg",
+      "url": "https://babylonbee.com/news/jesus-turns-wine-back-to-water-after-weddings-guests-start-doing-the-electric-slide",
+      "comments": 60,
+      "pct": 33
+    },
+    {
+      "headline": "Ceasefire Begins After Trump and Iran Forget Whose Turn It Was To Attack The Other",
+      "date": "2026-09-26",
+      "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
+      "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
+      "comments": 58,
+      "pct": 29
+    },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
       "date": "2026-09-25",
       "img": "https://media.babylonbee.com/articles/6ab6d5ad9554a6ab6d5ad9554b.jpg",
       "url": "https://babylonbee.com/news/iranian-president-caught-using-cardboard-cutout-of-ayatollah-to-sneak-into-hov-lane",
-      "comments": 37,
+      "comments": 38,
       "pct": 2
     },
     {
@@ -34,7 +50,7 @@
       "img": "https://media.babylonbee.com/articles/6aa319d4c14c36aa319d4c14c4.jpg",
       "url": "https://babylonbee.com/news/local-dad-clearly-using-his-kids-as-excuse-to-ride-go-karts",
       "comments": 82,
-      "pct": 71
+      "pct": 72
     },
     {
       "headline": "Friend Who Completely Forgot About Fantasy Draft Projected To Win Handily",
@@ -42,7 +58,7 @@
       "img": "https://media.babylonbee.com/articles/6aa18b47c5fc46aa18b47c5fc5.jpg",
       "url": "https://babylonbee.com/news/friend-who-completely-forgot-about-fantasy-draft-projected-to-win-handily",
       "comments": 38,
-      "pct": 1
+      "pct": 2
     },
     {
       "headline": "Powerful: Gloria Steinem Refuses To Allow Satan To Hold Door To Hell Open For Her",
@@ -58,7 +74,7 @@
       "img": "https://media.babylonbee.com/articles/6a9722ffeba626a9722ffeba63.jpg",
       "url": "https://babylonbee.com/news/suspicions-of-ayatollahs-death-rise-after-his-name-appears-on-california-voter-rolls",
       "comments": 53,
-      "pct": 18
+      "pct": 17
     },
     {
       "headline": "Unlucky: 6th Grader Flunks Geography After Trump Renames Everything In Middle Of Exam",
