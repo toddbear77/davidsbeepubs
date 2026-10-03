@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T10:31:43Z",
+  "updated": "2026-10-03T10:33:24Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6abc1f3fb43fd6abc1f3fb43fe.jpg",
       "url": "https://babylonbee.com/news/jesus-turns-wine-back-to-water-after-weddings-guests-start-doing-the-electric-slide",
       "comments": 64,
-      "pct": 42
+      "pct": 43
     },
     {
       "headline": "Ceasefire Begins After Trump and Iran Forget Whose Turn It Was To Attack The Other",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
       "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
       "comments": 58,
-      "pct": 30
+      "pct": 32
     },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
@@ -33,7 +33,7 @@
       "url": "https://babylonbee.com/news/rfk-jr-teams-up-with-starbucks-to-introduce-new-beef-tallow-spice-frappuccino",
       "note": "Pitched via the Bee's Slack channel, so it carries no subscriber credit line",
       "comments": 73,
-      "pct": 61,
+      "pct": 63,
       "manual": true
     },
     {
@@ -66,7 +66,7 @@
       "img": "https://media.babylonbee.com/articles/6a99ee241f2166a99ee241f217.jpg",
       "url": "https://babylonbee.com/news/powerful-gloria-steinem-refuses-to-allow-satan-to-hold-door-to-hell-open-for-her",
       "comments": 71,
-      "pct": 54
+      "pct": 55
     },
     {
       "headline": "Suspicions Of Ayatollah's Death Rise After His Name Appears On California Voter Rolls",
