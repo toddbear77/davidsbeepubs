@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T10:33:24Z",
+  "updated": "2026-10-04T16:55:35Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6abc1f3fb43fd6abc1f3fb43fe.jpg",
       "url": "https://babylonbee.com/news/jesus-turns-wine-back-to-water-after-weddings-guests-start-doing-the-electric-slide",
       "comments": 64,
-      "pct": 43
+      "pct": 42
     },
     {
       "headline": "Ceasefire Begins After Trump and Iran Forget Whose Turn It Was To Attack The Other",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
       "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
       "comments": 58,
-      "pct": 32
+      "pct": 31
     },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
@@ -24,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6d5ad9554a6ab6d5ad9554b.jpg",
       "url": "https://babylonbee.com/news/iranian-president-caught-using-cardboard-cutout-of-ayatollah-to-sneak-into-hov-lane",
       "comments": 38,
-      "pct": 3
+      "pct": 2
     },
     {
       "headline": "RFK Jr. Teams Up With Starbucks To Introduce New Beef Tallow Spice Frappuccino",
@@ -33,7 +33,7 @@
       "url": "https://babylonbee.com/news/rfk-jr-teams-up-with-starbucks-to-introduce-new-beef-tallow-spice-frappuccino",
       "note": "Pitched via the Bee's Slack channel, so it carries no subscriber credit line",
       "comments": 73,
-      "pct": 63,
+      "pct": 62,
       "manual": true
     },
     {
@@ -58,7 +58,7 @@
       "img": "https://media.babylonbee.com/articles/6aa18b47c5fc46aa18b47c5fc5.jpg",
       "url": "https://babylonbee.com/news/friend-who-completely-forgot-about-fantasy-draft-projected-to-win-handily",
       "comments": 38,
-      "pct": 2
+      "pct": 1
     },
     {
       "headline": "Powerful: Gloria Steinem Refuses To Allow Satan To Hold Door To Hell Open For Her",
@@ -66,7 +66,7 @@
       "img": "https://media.babylonbee.com/articles/6a99ee241f2166a99ee241f217.jpg",
       "url": "https://babylonbee.com/news/powerful-gloria-steinem-refuses-to-allow-satan-to-hold-door-to-hell-open-for-her",
       "comments": 71,
-      "pct": 55
+      "pct": 54
     },
     {
       "headline": "Suspicions Of Ayatollah's Death Rise After His Name Appears On California Voter Rolls",
@@ -74,7 +74,7 @@
       "img": "https://media.babylonbee.com/articles/6a9722ffeba626a9722ffeba63.jpg",
       "url": "https://babylonbee.com/news/suspicions-of-ayatollahs-death-rise-after-his-name-appears-on-california-voter-rolls",
       "comments": 53,
-      "pct": 18
+      "pct": 17
     },
     {
       "headline": "Unlucky: 6th Grader Flunks Geography After Trump Renames Everything In Middle Of Exam",
