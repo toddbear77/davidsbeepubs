@@ -1,7 +1,15 @@
 {
-  "updated": "2026-10-04T16:55:35Z",
+  "updated": "2026-10-05T10:34:49Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
+    {
+      "headline": "Apple Fires Engineer For Designing Phone Battery That Lasts Longer Than Two Hours",
+      "date": "2026-10-03",
+      "img": "https://media.babylonbee.com/articles/6ac12d25ea1296ac12d25ea12a.jpg",
+      "url": "https://babylonbee.com/news/apple-fires-engineer-for-designing-phone-battery-that-lasts-longer-than-two-hours",
+      "comments": 48,
+      "pct": 14
+    },
     {
       "headline": "Jesus Turns Wine Back to Water After Wedding Guests Start Doing The Electric Slide",
       "date": "2026-09-29",
@@ -16,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
       "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
       "comments": 58,
-      "pct": 31
+      "pct": 30
     },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
@@ -50,7 +58,7 @@
       "img": "https://media.babylonbee.com/articles/6aa319d4c14c36aa319d4c14c4.jpg",
       "url": "https://babylonbee.com/news/local-dad-clearly-using-his-kids-as-excuse-to-ride-go-karts",
       "comments": 82,
-      "pct": 73
+      "pct": 72
     },
     {
       "headline": "Friend Who Completely Forgot About Fantasy Draft Projected To Win Handily",
