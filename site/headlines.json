@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T10:33:28Z",
+  "updated": "2026-10-07T10:34:02Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6ac12d25ea1296ac12d25ea12a.jpg",
       "url": "https://babylonbee.com/news/apple-fires-engineer-for-designing-phone-battery-that-lasts-longer-than-two-hours",
       "comments": 51,
-      "pct": 19
+      "pct": 18
     },
     {
       "headline": "Jesus Turns Wine Back to Water After Wedding Guests Start Doing The Electric Slide",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6abc1f3fb43fd6abc1f3fb43fe.jpg",
       "url": "https://babylonbee.com/news/jesus-turns-wine-back-to-water-after-weddings-guests-start-doing-the-electric-slide",
       "comments": 64,
-      "pct": 43
+      "pct": 42
     },
     {
       "headline": "Ceasefire Begins After Trump and Iran Forget Whose Turn It Was To Attack The Other",
@@ -50,7 +50,7 @@
       "img": "https://media.babylonbee.com/articles/6aadaaeaeb7376aadaaeaeb738.jpg",
       "url": "https://babylonbee.com/news/report-chilis-only-gets-bad-rap-because-it-is-awful",
       "comments": 85,
-      "pct": 78
+      "pct": 77
     },
     {
       "headline": "Local Dad Clearly Using His Kids As Excuse To Ride Go-Karts",
@@ -66,7 +66,7 @@
       "img": "https://media.babylonbee.com/articles/6aa18b47c5fc46aa18b47c5fc5.jpg",
       "url": "https://babylonbee.com/news/friend-who-completely-forgot-about-fantasy-draft-projected-to-win-handily",
       "comments": 38,
-      "pct": 1
+      "pct": 2
     },
     {
       "headline": "Powerful: Gloria Steinem Refuses To Allow Satan To Hold Door To Hell Open For Her",
