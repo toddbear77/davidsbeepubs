@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T10:35:15Z",
+  "updated": "2026-10-09T10:35:07Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,15 @@
       "img": "https://media.babylonbee.com/articles/6ac12d25ea1296ac12d25ea12a.jpg",
       "url": "https://babylonbee.com/news/apple-fires-engineer-for-designing-phone-battery-that-lasts-longer-than-two-hours",
       "comments": 51,
-      "pct": 19
+      "pct": 20
+    },
+    {
+      "headline": "Authorities Now Believe FlyDubai Copilot Radicalized By Watching Ms. Rachel Videos",
+      "date": "2026-10-03",
+      "img": "https://media.babylonbee.com/articles/6ac1332e9df856ac1332e9df86.jpg",
+      "url": "https://babylonbee.com/news/authorities-now-believe-flydubai-copilot-radicalized-by-watching-ms-rachel-videos",
+      "comments": 96,
+      "pct": 87
     },
     {
       "headline": "Jesus Turns Wine Back to Water After Wedding Guests Start Doing The Electric Slide",
@@ -16,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6abc1f3fb43fd6abc1f3fb43fe.jpg",
       "url": "https://babylonbee.com/news/jesus-turns-wine-back-to-water-after-weddings-guests-start-doing-the-electric-slide",
       "comments": 64,
-      "pct": 44
+      "pct": 45
     },
     {
       "headline": "Ceasefire Begins After Trump and Iran Forget Whose Turn It Was To Attack The Other",
@@ -24,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
       "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
       "comments": 58,
-      "pct": 32
+      "pct": 34
     },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
@@ -66,7 +74,7 @@
       "img": "https://media.babylonbee.com/articles/6aa18b47c5fc46aa18b47c5fc5.jpg",
       "url": "https://babylonbee.com/news/friend-who-completely-forgot-about-fantasy-draft-projected-to-win-handily",
       "comments": 38,
-      "pct": 1
+      "pct": 2
     },
     {
       "headline": "Powerful: Gloria Steinem Refuses To Allow Satan To Hold Door To Hell Open For Her",
