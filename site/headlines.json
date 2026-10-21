@@ -1,14 +1,22 @@
 {
-  "updated": "2026-10-20T10:47:35Z",
+  "updated": "2026-10-21T10:49:17Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
+    {
+      "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
+      "date": "2026-10-15",
+      "img": "https://media.babylonbee.com/articles/6ad12473c3e996ad12473c3e9a.jpg",
+      "url": "https://babylonbee.com/news/james-talarico-insists-the-bible-is-silent-on-abortion-if-you-dont-count-all-the-stuff-between-genesis-and-revelation",
+      "comments": 51,
+      "pct": 22
+    },
     {
       "headline": "Local Man Somehow Trains For Marathon Without Posting About It Every Day On Facebook",
       "date": "2026-10-12",
       "img": "https://media.babylonbee.com/articles/6acd135d0b8c06acd135d0b8c1.jpg",
       "url": "https://babylonbee.com/news/local-man-somehow-trains-for-marathon-without-posting-about-it-every-day-on-facebook",
       "comments": 54,
-      "pct": 30
+      "pct": 29
     },
     {
       "headline": "Apple Fires Engineer For Designing Phone Battery That Lasts Longer Than Two Hours",
@@ -40,7 +48,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
       "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
       "comments": 58,
-      "pct": 34
+      "pct": 35
     },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
@@ -57,7 +65,7 @@
       "url": "https://babylonbee.com/news/rfk-jr-teams-up-with-starbucks-to-introduce-new-beef-tallow-spice-frappuccino",
       "note": "Pitched via the Bee's Slack channel, so it carries no subscriber credit line",
       "comments": 73,
-      "pct": 64,
+      "pct": 65,
       "manual": true
     },
     {
