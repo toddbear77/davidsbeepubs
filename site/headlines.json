@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T10:48:46Z",
+  "updated": "2026-10-23T10:46:38Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6ad12473c3e996ad12473c3e9a.jpg",
       "url": "https://babylonbee.com/news/james-talarico-insists-the-bible-is-silent-on-abortion-if-you-dont-count-all-the-stuff-between-genesis-and-revelation",
       "comments": 51,
-      "pct": 20
+      "pct": 22
     },
     {
       "headline": "Local Man Somehow Trains For Marathon Without Posting About It Every Day On Facebook",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6acd135d0b8c06acd135d0b8c1.jpg",
       "url": "https://babylonbee.com/news/local-man-somehow-trains-for-marathon-without-posting-about-it-every-day-on-facebook",
       "comments": 54,
-      "pct": 27
+      "pct": 29
     },
     {
       "headline": "Apple Fires Engineer For Designing Phone Battery That Lasts Longer Than Two Hours",
@@ -24,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6ac12d25ea1296ac12d25ea12a.jpg",
       "url": "https://babylonbee.com/news/apple-fires-engineer-for-designing-phone-battery-that-lasts-longer-than-two-hours",
       "comments": 51,
-      "pct": 19
+      "pct": 21
     },
     {
       "headline": "Authorities Now Believe FlyDubai Copilot Radicalized By Watching Ms. Rachel Videos",
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6ac1332e9df856ac1332e9df86.jpg",
       "url": "https://babylonbee.com/news/authorities-now-believe-flydubai-copilot-radicalized-by-watching-ms-rachel-videos",
       "comments": 96,
-      "pct": 89
+      "pct": 90
     },
     {
       "headline": "Jesus Turns Wine Back to Water After Wedding Guests Start Doing The Electric Slide",
@@ -48,7 +48,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6bc05e45176ab6bc05e4518.jpg",
       "url": "https://babylonbee.com/news/ceasefire-begins-after-trump-and-iran-forget-whose-turn-it-was-to-attack-the-other",
       "comments": 58,
-      "pct": 34
+      "pct": 33
     },
     {
       "headline": "Iranian President Caught Using Cardboard Cutout Of Ayatollah To Sneak Into HOV Lane",
@@ -56,7 +56,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6d5ad9554a6ab6d5ad9554b.jpg",
       "url": "https://babylonbee.com/news/iranian-president-caught-using-cardboard-cutout-of-ayatollah-to-sneak-into-hov-lane",
       "comments": 38,
-      "pct": 2
+      "pct": 3
     },
     {
       "headline": "RFK Jr. Teams Up With Starbucks To Introduce New Beef Tallow Spice Frappuccino",
