@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T10:45:58Z",
+  "updated": "2026-10-25T10:45:42Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -7,7 +7,7 @@
       "date": "2026-10-23",
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
-      "comments": 30,
+      "comments": 33,
       "pct": 1
     },
     {
@@ -15,8 +15,8 @@
       "date": "2026-10-23",
       "img": "https://media.babylonbee.com/articles/6adb9048cd6606adb9048cd661.jpg",
       "url": "https://babylonbee.com/news/oh-no-atlanta-falcons-announce-surprise-game-in-paris",
-      "comments": 47,
-      "pct": 19
+      "comments": 53,
+      "pct": 30
     },
     {
       "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
@@ -24,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6ad12473c3e996ad12473c3e9a.jpg",
       "url": "https://babylonbee.com/news/james-talarico-insists-the-bible-is-silent-on-abortion-if-you-dont-count-all-the-stuff-between-genesis-and-revelation",
       "comments": 51,
-      "pct": 24
+      "pct": 22
     },
     {
       "headline": "Local Man Somehow Trains For Marathon Without Posting About It Every Day On Facebook",
@@ -40,7 +40,7 @@
       "img": "https://media.babylonbee.com/articles/6ac12d25ea1296ac12d25ea12a.jpg",
       "url": "https://babylonbee.com/news/apple-fires-engineer-for-designing-phone-battery-that-lasts-longer-than-two-hours",
       "comments": 51,
-      "pct": 22
+      "pct": 21
     },
     {
       "headline": "Authorities Now Believe FlyDubai Copilot Radicalized By Watching Ms. Rachel Videos",
@@ -72,7 +72,7 @@
       "img": "https://media.babylonbee.com/articles/6ab6d5ad9554a6ab6d5ad9554b.jpg",
       "url": "https://babylonbee.com/news/iranian-president-caught-using-cardboard-cutout-of-ayatollah-to-sneak-into-hov-lane",
       "comments": 38,
-      "pct": 2
+      "pct": 3
     },
     {
       "headline": "RFK Jr. Teams Up With Starbucks To Introduce New Beef Tallow Spice Frappuccino",
