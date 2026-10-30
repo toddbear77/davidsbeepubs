@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T10:59:24Z",
+  "updated": "2026-10-30T16:43:08Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -7,8 +7,8 @@
       "date": "2026-10-28",
       "img": "https://media.babylonbee.com/articles/6ae20d222bc336ae20d222bc34.jpg",
       "url": "https://babylonbee.com/news/democrats-announce-counteroffer-of-1000001-to-not-report-voter-fraud",
-      "comments": 63,
-      "pct": 56
+      "comments": 71,
+      "pct": 73
     },
     {
       "headline": "Elon Musk Accused of Downgrading Ukraine's Starlink To Dial-Up With Netscape Navigator",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
       "comments": 35,
-      "pct": 2
+      "pct": 3
     },
     {
       "headline": "Oh No: Atlanta Falcons Announce Surprise Game In Paris",
