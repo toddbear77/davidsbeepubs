@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T15:45:07Z",
+  "updated": "2026-11-01T16:49:48Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -24,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6adb9048cd6606adb9048cd661.jpg",
       "url": "https://babylonbee.com/news/oh-no-atlanta-falcons-announce-surprise-game-in-paris",
       "comments": 55,
-      "pct": 38
+      "pct": 37
     },
     {
       "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6ad12473c3e996ad12473c3e9a.jpg",
       "url": "https://babylonbee.com/news/james-talarico-insists-the-bible-is-silent-on-abortion-if-you-dont-count-all-the-stuff-between-genesis-and-revelation",
       "comments": 51,
-      "pct": 26
+      "pct": 25
     },
     {
       "headline": "Local Man Somehow Trains For Marathon Without Posting About It Every Day On Facebook",
@@ -48,7 +48,7 @@
       "img": "https://media.babylonbee.com/articles/6ac12d25ea1296ac12d25ea12a.jpg",
       "url": "https://babylonbee.com/news/apple-fires-engineer-for-designing-phone-battery-that-lasts-longer-than-two-hours",
       "comments": 51,
-      "pct": 24
+      "pct": 23
     },
     {
       "headline": "Authorities Now Believe FlyDubai Copilot Radicalized By Watching Ms. Rachel Videos",
