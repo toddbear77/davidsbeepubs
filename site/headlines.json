@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T20:22:58Z",
+  "updated": "2026-11-03T17:52:10Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6adb9048cd6606adb9048cd661.jpg",
       "url": "https://babylonbee.com/news/oh-no-atlanta-falcons-announce-surprise-game-in-paris",
       "comments": 55,
-      "pct": 37
+      "pct": 38
     },
     {
       "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
