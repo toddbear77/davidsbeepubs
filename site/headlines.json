@@ -1,14 +1,22 @@
 {
-  "updated": "2026-11-05T18:04:34Z",
+  "updated": "2026-11-06T17:31:26Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
+    {
+      "headline": "Millions Of Texans Seen Crossing Rio Grande Into Mexico",
+      "date": "2026-11-04",
+      "img": "https://media.babylonbee.com/articles/6aeb878c09cf36aeb878c09cf4.jpg",
+      "url": "https://babylonbee.com/news/millions-of-texans-seen-crossing-rio-grande-into-mexico",
+      "comments": 57,
+      "pct": 46
+    },
     {
       "headline": "Fantasy Football Manager Spends Hours Carefully Deciding Who Will Score 45 Points On His Bench This Week",
       "date": "2026-10-31",
       "img": "https://media.babylonbee.com/articles/6ae4bfb1475e26ae4bfb1475e3.jpg",
       "url": "https://babylonbee.com/news/fantasy-football-manager-spends-hours-carefully-deciding-who-will-score-45-points-on-his-bench-this-week",
       "comments": 38,
-      "pct": 10
+      "pct": 9
     },
     {
       "headline": "Democrats Announce Counteroffer Of $1,000,001 To Not Report Voter Fraud",
@@ -24,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
       "comments": 35,
-      "pct": 6
+      "pct": 4
     },
     {
       "headline": "Oh No: Atlanta Falcons Announce Surprise Game In Paris",
@@ -32,7 +40,7 @@
       "img": "https://media.babylonbee.com/articles/6adb9048cd6606adb9048cd661.jpg",
       "url": "https://babylonbee.com/news/oh-no-atlanta-falcons-announce-surprise-game-in-paris",
       "comments": 55,
-      "pct": 40
+      "pct": 39
     },
     {
       "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
@@ -40,7 +48,7 @@
       "img": "https://media.babylonbee.com/articles/6ad12473c3e996ad12473c3e9a.jpg",
       "url": "https://babylonbee.com/news/james-talarico-insists-the-bible-is-silent-on-abortion-if-you-dont-count-all-the-stuff-between-genesis-and-revelation",
       "comments": 51,
-      "pct": 28
+      "pct": 27
     },
     {
       "headline": "Local Man Somehow Trains For Marathon Without Posting About It Every Day On Facebook",
@@ -48,7 +56,7 @@
       "img": "https://media.babylonbee.com/articles/6acd135d0b8c06acd135d0b8c1.jpg",
       "url": "https://babylonbee.com/news/local-man-somehow-trains-for-marathon-without-posting-about-it-every-day-on-facebook",
       "comments": 54,
-      "pct": 35
+      "pct": 34
     },
     {
       "headline": "Apple Fires Engineer For Designing Phone Battery That Lasts Longer Than Two Hours",
@@ -64,7 +72,7 @@
       "img": "https://media.babylonbee.com/articles/6ac1332e9df856ac1332e9df86.jpg",
       "url": "https://babylonbee.com/news/authorities-now-believe-flydubai-copilot-radicalized-by-watching-ms-rachel-videos",
       "comments": 96,
-      "pct": 91
+      "pct": 90
     },
     {
       "headline": "Jesus Turns Wine Back to Water After Wedding Guests Start Doing The Electric Slide",
