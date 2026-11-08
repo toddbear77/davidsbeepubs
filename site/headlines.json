@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:28:46Z",
+  "updated": "2026-11-08T16:41:43Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -7,8 +7,8 @@
       "date": "2026-11-04",
       "img": "https://media.babylonbee.com/articles/6aeb878c09cf36aeb878c09cf4.jpg",
       "url": "https://babylonbee.com/news/millions-of-texans-seen-crossing-rio-grande-into-mexico",
-      "comments": 61,
-      "pct": 56
+      "comments": 62,
+      "pct": 58
     },
     {
       "headline": "Fantasy Football Manager Spends Hours Carefully Deciding Who Will Score 45 Points On His Bench This Week",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6ae4bfb1475e26ae4bfb1475e3.jpg",
       "url": "https://babylonbee.com/news/fantasy-football-manager-spends-hours-carefully-deciding-who-will-score-45-points-on-his-bench-this-week",
       "comments": 38,
-      "pct": 10
+      "pct": 9
     },
     {
       "headline": "Democrats Announce Counteroffer Of $1,000,001 To Not Report Voter Fraud",
@@ -24,7 +24,7 @@
       "img": "https://media.babylonbee.com/articles/6ae20d222bc336ae20d222bc34.jpg",
       "url": "https://babylonbee.com/news/democrats-announce-counteroffer-of-1000001-to-not-report-voter-fraud",
       "comments": 71,
-      "pct": 73
+      "pct": 72
     },
     {
       "headline": "Elon Musk Accused of Downgrading Ukraine's Starlink To Dial-Up With Netscape Navigator",
