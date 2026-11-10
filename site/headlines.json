@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T20:47:36Z",
+  "updated": "2026-11-10T17:53:51Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6aeb878c09cf36aeb878c09cf4.jpg",
       "url": "https://babylonbee.com/news/millions-of-texans-seen-crossing-rio-grande-into-mexico",
       "comments": 62,
-      "pct": 59
+      "pct": 60
     },
     {
       "headline": "Fantasy Football Manager Spends Hours Carefully Deciding Who Will Score 45 Points On His Bench This Week",
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6ae4bfb1475e26ae4bfb1475e3.jpg",
       "url": "https://babylonbee.com/news/fantasy-football-manager-spends-hours-carefully-deciding-who-will-score-45-points-on-his-bench-this-week",
       "comments": 38,
-      "pct": 11
+      "pct": 10
     },
     {
       "headline": "Democrats Announce Counteroffer Of $1,000,001 To Not Report Voter Fraud",
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
       "comments": 35,
-      "pct": 6
+      "pct": 4
     },
     {
       "headline": "Oh No: Atlanta Falcons Announce Surprise Game In Paris",
