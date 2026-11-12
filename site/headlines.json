@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T17:54:52Z",
+  "updated": "2026-11-12T18:21:45Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6aeb878c09cf36aeb878c09cf4.jpg",
       "url": "https://babylonbee.com/news/millions-of-texans-seen-crossing-rio-grande-into-mexico",
       "comments": 62,
-      "pct": 60
+      "pct": 61
     },
     {
       "headline": "Fantasy Football Manager Spends Hours Carefully Deciding Who Will Score 45 Points On His Bench This Week",
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
       "comments": 35,
-      "pct": 5
+      "pct": 4
     },
     {
       "headline": "Oh No: Atlanta Falcons Announce Surprise Game In Paris",
@@ -40,7 +40,7 @@
       "img": "https://media.babylonbee.com/articles/6adb9048cd6606adb9048cd661.jpg",
       "url": "https://babylonbee.com/news/oh-no-atlanta-falcons-announce-surprise-game-in-paris",
       "comments": 55,
-      "pct": 42
+      "pct": 41
     },
     {
       "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
@@ -56,7 +56,7 @@
       "img": "https://media.babylonbee.com/articles/6acd135d0b8c06acd135d0b8c1.jpg",
       "url": "https://babylonbee.com/news/local-man-somehow-trains-for-marathon-without-posting-about-it-every-day-on-facebook",
       "comments": 54,
-      "pct": 37
+      "pct": 36
     },
     {
       "headline": "Apple Fires Engineer For Designing Phone Battery That Lasts Longer Than Two Hours",
