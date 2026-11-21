@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T18:37:34Z",
+  "updated": "2026-11-21T17:36:19Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -8,7 +8,7 @@
       "img": "https://media.babylonbee.com/articles/6aeb878c09cf36aeb878c09cf4.jpg",
       "url": "https://babylonbee.com/news/millions-of-texans-seen-crossing-rio-grande-into-mexico",
       "comments": 62,
-      "pct": 61
+      "pct": 62
     },
     {
       "headline": "Fantasy Football Manager Spends Hours Carefully Deciding Who Will Score 45 Points On His Bench This Week",
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
       "comments": 35,
-      "pct": 5
+      "pct": 4
     },
     {
       "headline": "Oh No: Atlanta Falcons Announce Surprise Game In Paris",
@@ -40,7 +40,7 @@
       "img": "https://media.babylonbee.com/articles/6adb9048cd6606adb9048cd661.jpg",
       "url": "https://babylonbee.com/news/oh-no-atlanta-falcons-announce-surprise-game-in-paris",
       "comments": 55,
-      "pct": 43
+      "pct": 44
     },
     {
       "headline": "James Talarico Insists The Bible Is Silent On Abortion If You Don't Count All The Stuff Between Genesis And Revelation",
