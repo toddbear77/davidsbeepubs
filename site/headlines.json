@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T17:52:00Z",
+  "updated": "2026-11-23T22:04:04Z",
   "note": "Maintained by scripts/update.py. Entries with manual:true are never touched except comments/pct.",
   "headlines": [
     {
@@ -16,7 +16,7 @@
       "img": "https://media.babylonbee.com/articles/6ae4bfb1475e26ae4bfb1475e3.jpg",
       "url": "https://babylonbee.com/news/fantasy-football-manager-spends-hours-carefully-deciding-who-will-score-45-points-on-his-bench-this-week",
       "comments": 38,
-      "pct": 10
+      "pct": 11
     },
     {
       "headline": "Democrats Announce Counteroffer Of $1,000,001 To Not Report Voter Fraud",
@@ -32,7 +32,7 @@
       "img": "https://media.babylonbee.com/articles/6adbac04396676adbac0439668.jpg",
       "url": "https://babylonbee.com/news/elon-musk-accused-of-downgrading-ukraines-starlink-to-dial-up-with-netscape-navigator",
       "comments": 35,
-      "pct": 5
+      "pct": 4
     },
     {
       "headline": "Oh No: Atlanta Falcons Announce Surprise Game In Paris",
@@ -307,7 +307,7 @@
       "img": "https://media.babylonbee.com/articles/69ef846c0de7d69ef846c0de7e.jpg",
       "url": "https://babylonbee.com/news/trump-enters-ceasefire-talks-with-democrats",
       "comments": 74,
-      "pct": 80
+      "pct": 79
     },
     {
       "headline": "Middle East Celebrates Ceasefire With Massive Fireworks Display",
